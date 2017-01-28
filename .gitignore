@@ -3,4 +3,6 @@
 */.classpath
 */.metadata
 */.settings
+.settings
+.settings/**
 */target/**
