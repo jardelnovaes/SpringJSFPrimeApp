@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+ 
+    <h:head>
+		<title><ui:insert name="title">Spring MVC JSF Primefaces</ui:insert></title>
+    </h:head>
+ 
+    <h:body>
+		<header> 
+			<hgroup> 
+				<h1>Spring MVC JSF Primefaces example</h1>
+			</hgroup> 
+			<nav> 
+				<ul> 
+					 <li><a href="${request.getRequestURL().toString()}">Home</a></li>
+			        <li><a href="users">User</a></li>
+			        <li><a href="users/api/all">Users Api: ALL</a></li>
+				</ul> 
+			</nav> 
+		</header>
+
+		<article>
+			<ui:insert name="content"/>
+		</article>
+		<ui:insert name="footer">
+			<footer>
+				<p>&copy; Jardel Novaes Examples</p>
+			</footer>
+		</ui:insert>
+</h:body>
+</html>
