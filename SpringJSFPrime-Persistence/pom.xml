@@ -11,7 +11,7 @@
   <packaging>jar</packaging>
   <name>SpringJSFPrimeApp Persistence</name>
   <properties>
-  	<hibernate.version>4.1.0.Final</hibernate.version>
+  	<hibernate.version>5.3.20.Final</hibernate.version>
   </properties>
   <dependencies>
 	<!-- Hibernate dependencies -->
