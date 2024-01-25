@@ -17,7 +17,7 @@
   	 <jstl.version>1.2</jstl.version>
   	 <jsf.version>2.1.6</jsf.version>
   	 <facelet.version>1.1.14</facelet.version>
-  	 <primefaces.version>6.0</primefaces.version>
+  	 <primefaces.version>8.0</primefaces.version>
   	 <spring.webflow>2.3.1.RELEASE</spring.webflow>
   </properties>
   
